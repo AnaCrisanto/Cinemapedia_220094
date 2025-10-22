@@ -1,8 +1,8 @@
-import 'package:cinemapedia_220138/config/constants/environment.dart';
-import 'package:cinemapedia_220138/domain/datasources/movies_datasource.dart';
-import 'package:cinemapedia_220138/domain/entities/movie.dart';
-import 'package:cinemapedia_220138/infrastructure/mappers/movie_mapper.dart';
-import 'package:cinemapedia_220138/infrastructure/models/moviedb/moviedb_response.dart';
+import 'package:cinemapedia_220094/config/constants/environment.dart';
+import 'package:cinemapedia_220094/domain/datasources/movies_datasource.dart';
+import 'package:cinemapedia_220094/domain/entities/movie.dart';
+import 'package:cinemapedia_220094/infrastructure/mappers/movie_mapper.dart';
+import 'package:cinemapedia_220094/infrastructure/models/moviedb/moviedb_response.dart';
 import 'package:dio/dio.dart';
 
 /// Implementación concreta del datasource que obtiene datos de TheMovieDB API.

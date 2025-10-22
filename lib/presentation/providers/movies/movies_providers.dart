@@ -1,5 +1,5 @@
-import 'package:cinemapedia_220138/domain/entities/movie.dart';
-import 'package:cinemapedia_220138/presentation/providers/movies/movies_repository_provider.dart';
+import 'package:cinemapedia_220094/domain/entities/movie.dart';
+import 'package:cinemapedia_220094/presentation/providers/movies/movies_repository_provider.dart';
 import 'package:flutter_riverpod/legacy.dart';
 
 /// Provider que gestiona el estado de películas en cartelera usando Riverpod.

@@ -1,6 +1,6 @@
-import 'package:cinemapedia_220138/domain/datasources/movies_datasource.dart';
-import 'package:cinemapedia_220138/domain/entities/movie.dart';
-import 'package:cinemapedia_220138/domain/repositories/movies_repository.dart';
+import 'package:cinemapedia_220094/domain/datasources/movies_datasource.dart';
+import 'package:cinemapedia_220094/domain/entities/movie.dart';
+import 'package:cinemapedia_220094/domain/repositories/movies_repository.dart';
 
 /// Implementación concreta del repositorio de películas.
 ///

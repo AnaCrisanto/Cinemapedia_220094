@@ -1,4 +1,4 @@
-import 'package:cinemapedia_220138/domain/entities/movie.dart';
+import 'package:cinemapedia_220094/domain/entities/movie.dart';
 
 /// Contrato abstracto que define las operaciones de acceso a datos para películas.
 ///

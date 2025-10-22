@@ -1,10 +1,13 @@
-import 'package:cinemapedia_220138/presentation/providers/movies/movies_providers.dart';
+
+import 'package:cinemapedia_220094/presentation/providers/providers.dart';
+import 'package:cinemapedia_220094/presentation/widgets/shared/custom_appbar.dart';
+import 'package:cinemapedia_220094/presentation/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 /// Pantalla principal de la aplicación que muestra las películas en cartelera.
 ///
-/// **Funcionalidades:**
+/// *Funcionalidades:*
 /// - Lista de películas actualmente en cines
 /// - Carga automática de datos al iniciar
 /// - Interfaz simple con título y descripción
@@ -22,7 +25,7 @@ class HomeScreen extends StatelessWidget {
 
 /// Vista interna que maneja el estado y la lógica de la pantalla principal.
 ///
-/// **Responsabilidades:**
+/// *Responsabilidades:*
 /// - Cargar películas al inicializar la pantalla
 /// - Escuchar cambios en el provider de películas
 class _HomeView extends ConsumerStatefulWidget {
@@ -48,19 +51,11 @@ class _HomeViewState extends ConsumerState<_HomeView> {
     final nowPlayingMovies = ref.watch(nowPlayingMoviesProvider);
 
     /// Lista deslizable que muestra todas las películas
-    return ListView.builder(
-      itemCount: nowPlayingMovies.length,
-      itemBuilder: (context, index) {
-        final movie = nowPlayingMovies[index];
-
-        /// Cada película se muestra en un ListTile simple
-        /// - title: Nombre de la película
-        /// - subtitle: Descripción/sinopsis
-        return ListTile(
-          title: Text(movie.title),
-          // subtitle: Text(movie.overview),
-        );
-      },
+    return Column(
+      children: [
+        CustomAppbar(),
+      MovieSlideshow(movies: nowPlayingMovies)
+      ],
     );
   }
 }

@@ -1,4 +1,4 @@
-import 'package:cinemapedia_220138/presentation/screens/screens.dart';
+import 'package:cinemapedia_220094/presentation/screens/screens.dart';
 import 'package:go_router/go_router.dart';
 
 /// Configuración principal de navegación de la aplicación.

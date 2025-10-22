@@ -1,4 +1,4 @@
-name: cinemapedia_220138
+name: cinemapedia_220094
 description: "A new Flutter project."
 publish_to: 'none'
 version: 0.1.0
@@ -14,6 +14,7 @@ dependencies:
   flutter_dotenv: ^6.0.0
   flutter_riverpod: ^3.0.3
   go_router: ^16.2.4
+  card_swiper: ^3.0.1
 
 dev_dependencies:
   flutter_test:

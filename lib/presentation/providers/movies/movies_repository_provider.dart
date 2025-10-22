@@ -1,5 +1,5 @@
-import 'package:cinemapedia_220138/infrastructure/datasources/moviedb_datasource.dart';
-import 'package:cinemapedia_220138/infrastructure/repositories/movie_repository_impl.dart';
+import 'package:cinemapedia_220094/infrastructure/datasources/moviedb_datasource.dart';
+import 'package:cinemapedia_220094/infrastructure/repositories/movie_repository_impl.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 /// Provider que proporciona una instancia del repositorio de películas.

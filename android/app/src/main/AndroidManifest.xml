@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="cinemapedia_220138"
+        android:label="cinemapedia_220094"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
